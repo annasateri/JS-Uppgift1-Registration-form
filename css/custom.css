@@ -1,0 +1,124 @@
+body {
+    background: linear-gradient(90deg, rgba(15,49,106,1) 0%, rgba(2,30,53,1) 100%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.h1 {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Italianno', cursive;
+    font-size: 35pt;
+    background: linear-gradient(90deg, rgba(218,232,255,1) 0%, rgba(10,117,204,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#heart {
+    height: 15px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    border: 0;
+    border-bottom: 1.5px solid #dae8ff;
+    color: white;
+}
+
+.form-control:focus {
+    background-color: transparent;
+    color: white;
+    box-shadow: none;
+}
+
+.btn {
+    background: linear-gradient(90deg, rgba(206,83,180,1) 0%, rgba(222,126,61,1) 100%);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: white;
+    font-weight: 500;
+    height: 5vh;
+    width: 25vw;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    letter-spacing: 2px;
+    font-size: 16pt;
+    margin-top: 7vh;
+    background: linear-gradient(90deg, rgba(218,232,255,1) 0%, rgba(10,117,204,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.listContent {
+    padding-top: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#emailUser {
+    font-size: 10pt;
+}
+
+.changeBtn, .removeBtn {
+    margin-top: 15px;
+}
+
+.changeBtn {
+    margin-right: 12px;
+}
+
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1280px) {
+  
+.h1 {
+    font-size: 45pt;
+}
+
+#heart {
+    height: 20px;
+}
+
+.btn {
+    height: 4vh;
+    width: 20vw;
+}
+    
+}
+
+
+/* Desktop */
+@media (min-width: 1281px) {
+
+.h1 {
+    font-size: 50pt;
+}
+
+#heart {
+    height: 25px;
+}
+
+.btn {
+    width: 8vw;
+}
+
+h2 {
+    font-size: 20pt;
+}
+
+.container {
+    padding: 0;
+}
+
+#regForm {
+    padding: 10px;
+}
+    
+}
